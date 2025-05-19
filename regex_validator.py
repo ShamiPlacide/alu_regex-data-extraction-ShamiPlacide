@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import re
 
 REGEX_PATTERNS = {
@@ -13,7 +15,7 @@ REGEX_PATTERNS = {
     "credit_card": re.compile(
         r"^(?:\d{4}[-\s]?){3}\d{4}$"
     ),
-    "hashtags": re.compile(
+    "hashtag": re.compile(
         r"^#\w{1,100}$"
     )
 }
